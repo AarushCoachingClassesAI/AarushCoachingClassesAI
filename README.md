@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A2A66,50:1565C0,100:42A5F5&height=200&section=header&text=Aarush%20Coaching%20Classes&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=Corporate%20Training%20%E2%80%A2%20Quest%20for%20Excellence&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <p align="center">
-  <img src="./aarush-profile-picture.png" alt="Aarush Coaching Classes" width="170"/>
+  <img src="https://github.com/AarushCoachingClassesAI.png?size=340" alt="Aarush Coaching Classes" width="170"/>
 </p>
 
 <h1 align="center">Hi 👋, We're Aarush Coaching Classes</h1>
