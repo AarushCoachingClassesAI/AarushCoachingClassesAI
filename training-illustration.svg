@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E3F2FD"/><stop offset="1" stop-color="#BBDEFB"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1565C0"/><stop offset="1" stop-color="#0A2A66"/>
+    </linearGradient>
+    <style>
+      .bar{animation:grow 2.4s ease-in-out infinite alternate;transform-origin:bottom;transform-box:fill-box}
+      .b2{animation-delay:.3s}.b3{animation-delay:.6s}.b4{animation-delay:.9s}
+      @keyframes grow{from{transform:scaleY(.55)}to{transform:scaleY(1)}}
+      .pointer{animation:point 2.4s ease-in-out infinite alternate;transform-origin:268px 150px}
+      @keyframes point{from{transform:rotate(4deg)}to{transform:rotate(-6deg)}}
+    </style>
+  </defs>
+  <rect width="400" height="300" rx="22" fill="url(#bg)"/>
+  <circle cx="345" cy="50" r="40" fill="#90CAF9" opacity=".45"/>
+  <circle cx="40" cy="265" r="30" fill="#64B5F6" opacity=".35"/>
+
+  <!-- presentation board -->
+  <rect x="40" y="34" width="220" height="150" rx="10" fill="url(#board)"/>
+  <rect x="146" y="184" width="8" height="30" fill="#0A2A66"/>
+  <text x="58" y="60" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="700" fill="#FFFFFF">Team Upskilling</text>
+  <text x="58" y="77" font-family="Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#90CAF9">AI • Cloud • Data</text>
+  <line x1="58" y1="166" x2="242" y2="166" stroke="#90CAF9" stroke-width="1.5"/>
+  <rect class="bar" x="70"  y="126" width="24" height="40" rx="3" fill="#42A5F5"/>
+  <rect class="bar b2" x="110" y="112" width="24" height="54" rx="3" fill="#64B5F6"/>
+  <rect class="bar b3" x="150" y="98"  width="24" height="68" rx="3" fill="#90CAF9"/>
+  <rect class="bar b4" x="190" y="84"  width="24" height="82" rx="3" fill="#BBDEFB"/>
+  <polyline points="82,120 122,104 162,90 202,74 232,62" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="232,62 222,62 230,70" fill="#FFFFFF"/>
+
+  <!-- trainer -->
+  <g class="pointer"><line x1="268" y1="150" x2="222" y2="112" stroke="#0A2A66" stroke-width="3" stroke-linecap="round"/></g>
+  <circle cx="300" cy="118" r="16" fill="#F1C7A3"/>
+  <path d="M284 114 q16 -22 32 0 q-4 -14 -16 -14 q-12 0 -16 14z" fill="#0A2A66"/>
+  <path d="M276 196 q0 -54 24 -60 q24 6 24 60z" fill="#1565C0"/>
+  <path d="M296 138 l4 10 l4 -10z" fill="#FFFFFF"/>
+  <line x1="282" y1="152" x2="268" y2="150" stroke="#1565C0" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- audience -->
+  <g fill="#0D47A1">
+    <circle cx="90" cy="232" r="13"/><path d="M68 280 q0 -30 22 -34 q22 4 22 34z"/>
+  </g>
+  <g fill="#1E88E5">
+    <circle cx="160" cy="236" r="13"/><path d="M138 284 q0 -30 22 -34 q22 4 22 34z"/>
+  </g>
+  <g fill="#1565C0">
+    <circle cx="230" cy="232" r="13"/><path d="M208 280 q0 -30 22 -34 q22 4 22 34z"/>
+  </g>
+  <g fill="#42A5F5">
+    <circle cx="300" cy="236" r="13"/><path d="M278 284 q0 -30 22 -34 q22 4 22 34z"/>
+  </g>
+  <rect x="332" y="208" width="44" height="30" rx="6" fill="#FFFFFF" stroke="#1565C0" stroke-width="2"/>
+  <circle cx="354" cy="220" r="6" fill="#FFC107"/>
+  <rect x="351" y="226" width="6" height="5" rx="1" fill="#1565C0"/>
+  <path d="M354 244 l-5 -6 h10z" fill="#FFFFFF" stroke="#1565C0" stroke-width="2" stroke-linejoin="round"/>
+</svg>

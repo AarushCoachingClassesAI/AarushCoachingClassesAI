@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 190" width="820" height="190">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A2A66"/><stop offset="1" stop-color="#1565C0"/>
+    </linearGradient>
+    <style>
+      .t{font-family:Segoe UI,Helvetica,Arial,sans-serif}
+      .num{font-size:34px;font-weight:800;fill:#FFFFFF}
+      .lbl{font-size:13px;font-weight:600;fill:#BBDEFB;letter-spacing:.5px}
+      .sub{font-size:11px;fill:#90CAF9}
+      .tile{animation:fade .8s ease-out both}
+      .d2{animation-delay:.15s}.d3{animation-delay:.3s}.d4{animation-delay:.45s}
+      @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+    </style>
+  </defs>
+  <rect width="820" height="190" rx="16" fill="url(#card)"/>
+  <text x="410" y="34" text-anchor="middle" class="t" font-size="16" font-weight="700" fill="#FFFFFF">Training at a Glance</text>
+
+  <g class="tile">
+    <rect x="20" y="52" width="180" height="118" rx="12" fill="#FFFFFF" fill-opacity=".08" stroke="#42A5F5" stroke-opacity=".5"/>
+    <text x="110" y="102" text-anchor="middle" class="t num">9+</text>
+    <text x="110" y="128" text-anchor="middle" class="t lbl">TRAINING PROGRAMS</text>
+    <text x="110" y="148" text-anchor="middle" class="t sub">AI • Cloud • Data • Web</text>
+  </g>
+  <g class="tile d2">
+    <rect x="220" y="52" width="180" height="118" rx="12" fill="#FFFFFF" fill-opacity=".08" stroke="#42A5F5" stroke-opacity=".5"/>
+    <text x="310" y="102" text-anchor="middle" class="t num">3</text>
+    <text x="310" y="128" text-anchor="middle" class="t lbl">DELIVERY MODES</text>
+    <text x="310" y="148" text-anchor="middle" class="t sub">On-site • Virtual • Hybrid</text>
+  </g>
+  <g class="tile d3">
+    <rect x="420" y="52" width="180" height="118" rx="12" fill="#FFFFFF" fill-opacity=".08" stroke="#42A5F5" stroke-opacity=".5"/>
+    <text x="510" y="102" text-anchor="middle" class="t num">100%</text>
+    <text x="510" y="128" text-anchor="middle" class="t lbl">HANDS-ON LABS</text>
+    <text x="510" y="148" text-anchor="middle" class="t sub">Real projects, real tools</text>
+  </g>
+  <g class="tile d4">
+    <rect x="620" y="52" width="180" height="118" rx="12" fill="#FFFFFF" fill-opacity=".08" stroke="#42A5F5" stroke-opacity=".5"/>
+    <text x="710" y="102" text-anchor="middle" class="t num">✔</text>
+    <text x="710" y="128" text-anchor="middle" class="t lbl">CERTIFICATION</text>
+    <text x="710" y="148" text-anchor="middle" class="t sub">On program completion</text>
+  </g>
+</svg>
